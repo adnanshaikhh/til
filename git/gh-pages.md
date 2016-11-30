@@ -9,21 +9,22 @@ Eg: adnanshaikh.com or blog.adnanshaikh.com
 Go to your domain management settings and add a ```CNAME``` record with the
 following values
 
-In case of a sub-domain
-Name = ```blog```
-Type = ```CNAME```
-Value = ```adnanshaikhh.github.io``` (Add a dot in the end if it doesn't work)
-
-In case of a domain
-Add a ```A``` record
-Name = (blank)
-Type = ```A```
-Value = ```192.30.252.153``` and ```192.30.252.154``` (Both are for Github)
-
+_In case of a sub-domain_  
 Add a ```CNAME``` record
-Name = ```www```
-Type = ```CNAME```
-Value = ```adnanshaikhh.github.io``` (Add a dot in the end if it doesn't work)
+* Name = ```blog```  
+* Type = ```CNAME```  
+* Value = ```adnanshaikhh.github.io``` (Add a dot in the end if it doesn't work)
+
+_In case of a domain_  
+Add a ```A``` record
+* Name = (blank)
+* Type = ```A```
+* Value = ```192.30.252.153``` and ```192.30.252.154``` (Both are for Github)
+
+Add a ```CNAME``` record  
+* Name = ```www```  
+* Type = ```CNAME```  
+* Value = ```adnanshaikhh.github.io``` (Add a dot in the end if it doesn't work)
 
 Because of the way DNS records are cached across the internet, these sorts of
 changes can take a few hours to take effect.
